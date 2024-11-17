@@ -14,7 +14,7 @@ function ProductList({ products }) { //display list of products
                 ))}
             </ul>
         </div>
-    );
+    ); //task 5 done above
 }
 
-export default ProductList; // export to main
+export default ProductList; 
