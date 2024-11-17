@@ -7,6 +7,7 @@ function App() { //app that manages the list of products
     { id: 1, name: 'Squishmallow', price: 30, description: 'Soft, squishy, egg-shaped plush toys' },
     { id: 2, name: 'Flower Wine Glasses', price: 40, description: '6 pcs Flower shped Wine Glass' },
   ]);
+  //  Step 7:
   const addProduct = (newProduct) => { //function to add new products
     setProducts([...products, newProduct]); //add new products to the list / the "[...products]" = creates new array and takes the elements of the current array
   };
