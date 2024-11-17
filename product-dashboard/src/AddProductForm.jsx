@@ -20,7 +20,7 @@ function AddProductForm({ addProducts }) {// function to add new product
         setDescription('');
     };
     // create form display which displays name,price,description, add product button
-    return ( //update name, price and description:
+    return ( //update the name, price and description:
         <form onSubmit={handleSubmit}>
             <h2>Add New Product</h2>
             <input
