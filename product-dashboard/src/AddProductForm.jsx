@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-function AddProductForm({ addProducts }) {// function to add new product
+function AddProductForm({ addProduct }) {// function to add new product
     //variables for inputs:
     const [name, setName] = useState('');
     const [price, setPrice] = useState('');
